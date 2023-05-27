@@ -3,7 +3,8 @@
     "target": "ES2016",
     "module": "ESNext",
     "outDir": "dist",
-    "strict": false,
+    "strict": true,
+    "strictNullChecks": true, // "strict" : true 시, 자동으로 true;
     "moduleDetection": "force"
   },
   "ts-node": {
